@@ -17,4 +17,4 @@ jobs:
           command: |
              docker-compose build
              docker-compose up -d
-             docker-compose run dockerapp python app/test.py
+             docker-compose run dockerapp python test.py
