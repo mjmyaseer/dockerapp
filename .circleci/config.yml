@@ -18,4 +18,4 @@ jobs:
              docker-compose up -d
              ls
              pwd
-             docker-compose run dockerapp python test.py
+             docker-compose run dockerapp python app/test.py
